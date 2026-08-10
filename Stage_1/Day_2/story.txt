@@ -1,0 +1,5 @@
+In the <Adjective1> land of <place>, a <animal> was feeling <emotion>. The animal lost its <object>.
+
+suddenly, a <character> appeared. 'I'll help you find your <object>.' they said.
+
+Together, thy journeyed through <terrain> and faced the <weather_condition>. Finally, they found the <object> in a <place2>, the <animal> was so <emotion2> and thanked the <character>. They lived <adverb> ever after.
