@@ -20,4 +20,10 @@ def greet():
     name = "ghislain"
     print(name)
     
+# global scope
+name = "ghislain"
 
+def greet():
+    print(name)
+
+greet()
