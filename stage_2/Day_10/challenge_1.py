@@ -27,3 +27,8 @@ def greet():
     print(name)
 
 greet()
+
+
+#default arguments
+def greet_name(name="ghislain"):
+    print(f"hello my friend, {name}!")
