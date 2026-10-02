@@ -57,3 +57,37 @@ create_user(
     age = 20,
     country = "Rwanda" 
 )
+
+#*args + **kwargs
+def example(*args, **kwargs):
+    print((args))
+    print(kwargs)
+
+example(
+    10,
+    20,
+    30,
+    name = "ghislain",
+    role = "developer"
+)
+
+# OUTPUT:
+
+# args = (10, 20, 30)
+
+# kwargs = {
+#     "name": "Ghislain",
+#     "role": "Developer"
+# }
+
+
+
+# function calling other function
+
+def add(a, b):
+    return a+b
+
+def double(number):
+    return number * 2
+
+result = double(add(10, 20))
