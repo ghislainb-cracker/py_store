@@ -13,3 +13,11 @@ def multiply(a, b):
 def multiply(a, b):
     # it displays the result one
     print (a * b)
+
+
+# local scope
+def greet():
+    name = "ghislain"
+    print(name)
+    
+
