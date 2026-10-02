@@ -34,6 +34,7 @@ def greet_name(name="ghislain"):
     print(f"hello my friend, {name}!")
 
 # *args: is a turple containing all positional arguments
+# handles extra positional arguments
 
 def args(*args):
     print(args)
@@ -45,3 +46,14 @@ def add_args(*args):
         total += num
 
     return total
+
+# **kwargs: handles extra keyword arguments
+
+def create_user(**kwargs):
+    print(kwargs)
+
+create_user(
+    name="ghislain",
+    age = 20,
+    country = "Rwanda" 
+)
