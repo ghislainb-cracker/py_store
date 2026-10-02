@@ -32,3 +32,16 @@ greet()
 #default arguments
 def greet_name(name="ghislain"):
     print(f"hello my friend, {name}!")
+
+# *args: is a turple containing all positional arguments
+
+def args(*args):
+    print(args)
+
+def add_args(*args):
+    total = 0
+
+    for num in args:
+        total += num
+
+    return total
